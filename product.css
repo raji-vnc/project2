@@ -1,0 +1,66 @@
+.product-header-section{
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:#f8a305;
+    border-radius:12px;
+    box-shadow:0 0 8px rgba(0,0,0,0.08);
+    height:400px;
+
+}
+.product-header{
+    margin-top:7%;
+}
+.product-header .btn1{
+   border-radius:20px;
+   background-color:rgb(2, 19, 63);
+   color:#fff;
+   font-size:24px;
+   width:35%;
+   height:50px
+}
+.product-header .btn2{
+    border-radius:20px;
+    background-color:rgb(2,19,63);
+    color:#fff;
+    font-size:24px;
+    width:25%;
+    height:40px
+}
+.product-header h1{
+    color:#fff;
+    font-size:36px;
+    font-family:'Arial'
+}
+.product-header p{
+    color:#fff;
+    font-size:18px;
+}
+.header-img img{
+    width:200px;
+    height:auto;
+    border:none;
+}
+/* ***************** */
+.section{
+    display:flex;
+    margin-left:16%;
+    line-height:1.6;
+    gap:40px;
+    padding: 40px;
+
+}
+.section-header h1{
+    font-size:26px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.section-header p{
+    color:blue;
+}
+.deal-of-the-day h1{
+    font-size:28px;
+    font-weight:bold;
+    color:blue;
+}
