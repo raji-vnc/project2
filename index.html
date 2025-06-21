@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+
++<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/task4/index.css">
-    <link rel="stylesheet" href="/task4/singleproduct/index.css">
+    <link href="/task4/payment/index.css" rel="stylesheet">
 </head>
 <body>
-    <!-- *************** -->
     <section>
         <nav class="navbar">
             <div class="logo">
@@ -38,6 +38,9 @@
     </section>
     <hr>
     <!-- ******************** -->
+
+    
+     <!-- ************************** -->
     <section>
         <nav class="nav-links">
             <ul class="nav-menu">
@@ -62,6 +65,27 @@
 
         </nav>
     </section>
+    <!-- ******************** -->
+
+<section class="payment-section">
+    <div class="payment">
+            <h1>Payment</h1>
+
+      <form class="payment-form">
+        <label for="name">Cardholder Name</label>
+        <input type="text">
+         <label for="number" >Card Number</label>
+        <input type="text" placeholder="0000 0000 0000 0000">
+         <label for="name">End Date</label>
+        <input type="number" placeholder="mm"><br>
+        <input type="number" placeholder="yyyy"><br>
+        <label for="cvv">CVV</label>
+        <input type="text">
+        <button class="pay-btn">Pay Now</button>
+      </form>
+    </div>
+</section>
+
     <!-- ***************** -->
 <section class="footer-section">
     <footer>
@@ -117,8 +141,5 @@
         
     </footer>
 </section>
-
-
-    
 </body>
 </html>
